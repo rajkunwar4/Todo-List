@@ -115,3 +115,16 @@ ul li span:hover{
     background: #edeef0;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 600px){
+    button{
+        border: none;
+        outline: none;
+        padding: 16px 40px;
+        background: #ff5945;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 40px;
+    }
+}
